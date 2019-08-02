@@ -10,6 +10,9 @@
    print $_SERVER['HTTP_X_FORWARDED_FOR'];
    print(" REMOTE_ADDR is ");
    print $_SERVER['REMOTE_ADDR'];
+   print(" HTTP_X_FORWARDED is ");
+   print $_SERVER['HTTP_X_FORWARDED'];
+  
 ?>
  </body>
 </html>
