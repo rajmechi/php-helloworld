@@ -3,6 +3,11 @@
   <title>PHP Test</title>
  </head>
  <body>
- <?php echo '<p>Hello World</p>'; ?> 
+ <?php 
+$source = show_source("transcript.php", true);
+print $source;
+?>
  </body>
 </html>
+
+
